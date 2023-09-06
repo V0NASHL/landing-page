@@ -23,19 +23,47 @@
     width: 250px;
 }
 
+.cta{
+    background-color: #3882f6;
+    display: flex;
+    width: 900px;
+    border-radius: 7px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
 a{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
 }
 
+a:hover{
+    color: #bbd1f3;
+}
+
 button{
     background-color: #3882f6;
+    border-radius: 7px;
     font-size: 18px;
     font-weight: bold;
     color: #f9faf9;
-    height: 40px;
+    height: 30px;
     width: 100px;
+}
+
+.b1{
+    border-style: none;
+}
+
+.b2{
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+button:hover{
+    background-color: #86b0f5;
 }
 
 footer{
